@@ -14,7 +14,7 @@ export interface Cliente{
 })
 export class ClienteService {
 
-  private url = 'http://127.0.0.1:81/crudionic/api.php/cliente';
+  private url = 'http://127.0.0.1/crudionic/api.php';
 
 
   constructor(private http: HttpClient) { }

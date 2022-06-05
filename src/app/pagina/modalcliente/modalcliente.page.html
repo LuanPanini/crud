@@ -10,20 +10,20 @@
 
   <ion-item>
     <ion-label position="floating">Nome</ion-label>
-    <ion-input ngModel name="nome"></ion-input>
+    <ion-input type="text" ngModel name="name"></ion-input>
   </ion-item>
 
   <ion-item>
     <ion-label position="floating">Cidade</ion-label>
-    <ion-input ngModel name="cidade"></ion-input>
+    <ion-input type="text" ngModel name="cidade"></ion-input>
   </ion-item>
 
   <ion-item>
     <ion-label position="floating">Email</ion-label>
-    <ion-input ngModel name="email"></ion-input>
+    <ion-input type="email" ngModel name="email"></ion-input>
   </ion-item>
 
-  <ion-button fill="outline" expand="block" type="submit">Cadastrar</ion-button>
+  <ion-button (click)="onClick()">Cadastrar</ion-button>
 
 </form>
 </ion-content>
